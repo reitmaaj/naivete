@@ -1,0 +1,10 @@
+name: {{ .Name }}
+age: {{ .Age }}
+address:
+	street: {{ .Address.Street }}
+	city: {{ .Address.City }}
+	zipcode: {{ .Address.PostalCode }}
+phone:
+{{ range .PhoneNumbers }}	{{ .Number }} ({{ .Type }})
+{{ end }}
+
