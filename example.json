@@ -1,0 +1,16 @@
+{
+	"Name": "John Doe",
+	"Age": 30,
+	"Address": {
+		"Street": "123 Main Street",
+		"City": "Nonesuch",
+		"PostalCode": "12345"
+	},
+	"PhoneNumbers": [{
+		"Type": "home",
+		"Number": "555-1234"
+	}, {
+		"Type": "work",
+		"Number": "555-5678"
+	}]
+}
