@@ -1,0 +1,4 @@
+naivete - an utterly naive template engine
+
+usage
+    naivete values.json < go-template.txt > rendered.txt
